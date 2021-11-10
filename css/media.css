@@ -1,0 +1,448 @@
+@media(max-width:1440px){
+
+
+}
+
+@media(max-width:1024px){
+
+.navbar-brand{
+    margin-right: 0;
+}
+
+.navbar-nav{
+    margin-left: 3.75rem;
+}
+
+.navbar-nav li:not(:last-child){
+    margin-right: 0.9375rem;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color:#121212;
+    font-size: 0.9375rem;
+}
+
+.header__form{
+    margin-right: 1rem;
+}
+
+.form-control{
+    width: 11.25rem;
+}
+
+.header__wrapper_lang{
+    padding-left: 0.9375rem;
+}
+
+
+.about{
+    background-size: 35.625rem 22.5rem;
+    height: 20rem;
+    background-position: left;
+    
+}
+
+.about .change{
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 20rem;
+}
+
+.about__text{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.about__text .line:after{
+    width: 20%;
+}
+
+.about__text h1{
+    font-size: 2.8rem;
+    padding-top: 0;
+}
+
+.about__text p{
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.about__text .about__btn{
+    padding:0.625rem;
+}
+
+.about__text .about__btn img{
+    margin-left: 1rem;
+}
+    
+.form-paragraf{
+    margin-left: 0;
+}
+
+.form-foot {
+   margin: 30px 0 30px auto;
+}
+
+.form-foot{
+    width: 25rem;
+}
+
+.form-control2{
+    width: 20rem;
+}
+
+.btn-form{
+    width: 20rem;
+}
+
+/*.logo__foot{
+    width: 250px;
+}*/
+
+
+    
+}
+
+@media(max-width:991px){
+
+    .navbar-toggler{
+        background-color:#CB2F2F;
+    }
+
+}
+
+@media(max-width:768px){
+
+.navbar-toggler:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+.navbar-collapse{
+    background-color: #EAEAEA;
+    text-align: center;
+}
+
+.form-control{
+    width: 30%;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.header__form{
+    margin-right: 0;
+}
+
+.navbar-nav{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav li:not(:last-child){
+    margin-right: 0;
+}
+
+.dropdown-menu.show{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.about{
+    background-size: 29.375rem auto;
+}
+
+.about__text p{
+    max-width: 21.875rem;
+}
+
+.about__field figure{
+    width: 100%;
+}
+
+.catalog__product_pattern{
+    width: 100%;
+}
+
+.model__description{
+    margin-top: 3.125rem;
+}
+
+.picture{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.form-paragraf{
+    font-size: 1.5rem;
+}
+
+.form-group{
+    width: 10rem;
+}
+
+.form-group input{
+    width:300px;
+}
+
+.form-control2{
+    width:300px;
+}
+
+.btn-form{
+    width: 100%;
+}
+
+.footer{
+    padding: 5rem 0;
+}
+
+.footer .row{
+    justify-content: space-around;
+}
+
+.form-foot{
+    padding: 0;
+    max-width:18.75rem;
+    background-color:#FAFAFA;
+}
+
+/*.footer .container .row .col-sm-4{
+    width: 33.3%;
+}*/
+
+/*.ico-foot{
+    margin-right: 1rem;
+}*/
+.logo__foot{
+    width:100%;
+    text-align: center;
+    padding-bottom:3.125rem;
+}
+
+.wrap-foot{
+    text-align: center;
+    margin-right: 80px;
+    margin-top:10px;
+}
+
+.wrap-foot2{
+    margin-top: 5.2rem;
+}
+.wrap-foot2 .dropdown{
+    display: flex;
+    align-items: center;
+}
+
+/*.list-unstyled{
+    padding-left: none;
+}*/
+
+.feedback{
+    
+}
+
+.breadcrumb{
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    white-space: nowrap;
+    justify-content: flex-start;
+}
+
+.breadcrumb::-webkit-scrollbar{
+    display:none;
+}
+
+.substrate{
+    width:100%;
+}
+
+.product__exposition .col-6{
+    width: 100%;
+}
+
+.table {
+    border:1px solid #EAEAEA;
+}
+
+.table .align{
+    border: none;
+}
+
+.table thead{
+    border-bottom: 1px solid #EAEAEA;
+}
+
+.cont .col-md-6{
+    width: 100%;
+}
+
+.wrap__contacts{
+    text-align: center;
+    padding:60px 0 60px 0;
+}
+
+.wrap__contacts h4::after{
+    left:45%;
+}
+
+.cont .form-foot{
+    margin-right: auto;
+}
+
+}
+
+@media(max-width:425px){
+
+.navbar-nav .dropdown-menu.show{
+    width: 100%;
+    text-align: center;
+}
+
+.about__us .half__top img{
+    width: 100%;
+}
+
+.about__us_sacura .bot{
+    padding-top: 2.5rem;
+    
+}
+
+.worth .worth__cart{
+    padding:0;
+}
+
+.director__wrap .col-6{
+    width: 100%;
+}
+
+.catalog__param {
+    column-count:1;
+}
+
+.catalog__param{
+    width: 100%;
+}
+
+.model__description{
+    margin-top: 1.25rem;
+    padding: 1.25rem;
+}
+
+.model__description_name{
+    margin-bottom: 1.875rem;
+}
+
+.pp__right, .pp__left{
+    width: 90%;
+    margin:0 auto;
+}
+
+.pp__right{
+    border-left: 1px solid #EAEAEA;
+}
+
+.form-mess .row{
+    padding:1.875rem 0;
+}
+
+.form-foot{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about{
+    background-image: none;
+}
+
+.about .change{
+    flex-direction: row;
+}
+
+.about .col-4{
+    width: 100%;
+}
+
+.offer .offer__paragraf{
+    margin-top: 0.625rem;
+}
+
+.offer .slim{
+    text-align: center;
+}
+
+.footer .container .row .col-sm-4{
+    width:100%;
+}
+
+.logo__foot{
+    margin-bottom: 3.125rem;
+    text-align: center;
+}
+
+.table__wrap{
+    overflow-x: scroll;
+    width: 100%;
+}
+
+.table__wrap table{
+    width: 31.25rem;
+}
+
+.table__wrap thead th{
+    padding: 0;
+}
+
+.feedback{
+    margin-top:1.25rem;
+}
+
+.listdownald{
+    padding: 0;
+    margin-bottom: 0;
+}
+
+
+}
+
+@media(max-width:375px){
+
+.catalog__param{
+    
+    width: 100%;
+}
+
+.catalog__product-content ul{
+    width: 100%;
+}
+
+.head .swiper-slide-active img{
+    width: 100%;
+    object-fit: contain;
+}
+
+}
+
+@media(max-width:320px){
+
+.catalog__param{
+    width: 100%;
+}
+
+.catalog__product-content ul{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.catalog__product-content{
+    padding:3rem 0 3rem 1.5rem;
+}
+
+.about__btn{
+    padding:0.5rem;
+}
+
+.model__description{
+    padding: 0;
+}
+
+}
