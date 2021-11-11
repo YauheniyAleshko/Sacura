@@ -9,7 +9,6 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel ="stylesheet" href = "css/media.css">
   <link rel="stylesheet" href="swiper/css/swiper.css">
-
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
   <title>Main</title>
 </head>
@@ -21,7 +20,7 @@
   <section class = "about">
     <div class = "container">
       <div class = "row change">
-        <div class = "col-4 about__text">
+        <div class = "about__text">
           <h1 class="line">Sakura</h1>
           <p>Профессиональное оборудование для создания качественных цифровых инсталяций и вывесок</p>
           <a class ="about__btn" href = "#">Перейти в каталог<img src = "/images/arrowBtn.svg"></a>
@@ -201,7 +200,6 @@
   <?php include 'bigfooter.php';?>
   
   <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src ="swiper/js/swiper.js"></script>
 </body>
 
 </html>

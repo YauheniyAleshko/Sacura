@@ -99,6 +99,17 @@ h3{
 .nav-item .dropdown-toggle:focus::after{
     transform:rotate(180deg);
 }
+
+.navbar-toggler-icon{
+    display: flex;
+    width: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    height: 1.5rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
     
 .form-control{
     border: 0;
@@ -120,9 +131,6 @@ h3{
     padding-left: 1.9375rem;
 }
 
-/*.navbar__globe img svg:hover{
-    fill: red;
-}Нужно будет разобраться со сменой цвета у svg*/
 .navbar__globe{
     text-decoration: none;
 }
@@ -228,7 +236,7 @@ h3{
     position: absolute;
     background:#CB2F2F;
     height: 1px;
-    width: 20%;
+    width: 8%;
     left: 0rem;
     bottom: -1.25rem;
 }
@@ -464,14 +472,13 @@ h3{
 
 .form-foot{
     max-width: 29.375rem;
-    padding: 40px;
+    padding: 2.5rem;
     background-color:#FFFFFE;
 }
 
 .form-foot .btn-primary:hover{
     background-color: #CB2F2F;
 }
-
 
 .form-control2{
     border: 1px solid #E3E3E3;
@@ -509,7 +516,7 @@ h3{
 }
 
 .form-foot{
-    margin:60px 0 60px auto;
+    margin:3.75rem 0 3.75rem auto;
 }
 
 .form-foot .form-group input, .form-foot .form-group textarea{
@@ -524,6 +531,11 @@ h3{
 
 .footer-title{
     margin-bottom: 1.875rem;
+}
+
+.footer .menu-group a:hover{
+    text-decoration: underline;
+    color: #CB2F2F;
 }
 
 .footer .menu-group li:not(:last-child){
@@ -581,13 +593,16 @@ h3{
 
 .fa-envelope::before{
     content: url(/images/convert.svg);
-    
 }
 
 .contact-content{
     margin-left: 1rem;
     padding-left: 1rem;
     border-left: 1px solid #eee;
+}
+
+.contact-content a:hover{
+    text-decoration: underline;
 }
 
 .copyright{
@@ -607,20 +622,26 @@ h3{
 }
 
 .breadcrumb {
-    justify-content: space-around;
-    height: 54px;
+    height: 3.375rem;
     align-items: center;
     margin-bottom:0rem;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+
+.breadcrumb-item{
+    margin-left: 2.625rem;
 }
 
 .breadcrumb li {
     border-right: 1px solid #EAEAEA;
     padding-right: 2.5rem;
+    flex-shrink: 0;
 }
 
 .breadcrumb li a{
     color: #424242;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
     text-decoration: none;
 }
@@ -631,7 +652,7 @@ h3{
 
 .breadcrumb .active{
     color:#CB2F2F;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 .model__description{
@@ -678,34 +699,6 @@ h3{
     left:0;
 }
 
-/*.product__exposition, .product__expositionPP{
-    padding-top: 3.75rem;
-}*/
-
-/*.model__image figure{
-    height: 21.125rem;
-}
-
-.model__image img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-
-}*/
-
-/*.product__exposition .substrate{
-    background-image: url(../images/img\ \(9\).png);
-    background-size:75px 75px;
-    background-position:bottom;
-}*/
-
-/*.product__exposition .wrap_bgr{
-    background-image: url(../images/img\ \(9\).png);
-    background-size:auto 75px;
-    background-position:bottom;
-    height: 5rem;
-}*/
-
 .product__exposition .production,.product__expositionPP .production{
     margin-top: 3.75rem;
 }
@@ -723,7 +716,7 @@ h3{
 }
 
 .table .right{
-    padding-bottom:20px;
+    padding-bottom:1.25rem;
     border-bottom: none;
     text-align: center;
     width: 50%;
@@ -734,10 +727,6 @@ h3{
     justify-content: space-around;
     width: 100%;
 }
-
-/*.table .three{
-    border-bottom: none;
-}*/
 
 .table{
     border: 1px solid #EAEAEA;
@@ -881,7 +870,7 @@ h3{
     content:""; 
     background:#EAEAEA; 
     position: absolute; 
-    height: 56px; 
+    height: 3.5rem; 
     width: 1px;
     bottom: -0.1rem;
     left: 49.95%;
@@ -920,7 +909,6 @@ h3{
     display: flex;
     max-width: 48.125rem;
     margin: 3.75rem auto 0 auto;
-    
     background-color: #FFFFFE;
     justify-content: space-between;
 }
@@ -931,8 +919,7 @@ h3{
 
 .worth .worth__cart ul{
     list-style-type:none;
-    padding: 60px 42px 60px 68px;
-
+    padding: 3.75rem 2.625rem 3.75rem 4.25rem;
 }
 
 .worth .worth__cart ul li{
@@ -960,11 +947,9 @@ h3{
 .wrap__number{
     display: flex;
     align-items: center;
-    width: 270px;
+    width: 16.875rem;
     justify-content: center;
 }
-
-
 
 .rev{
     flex-direction: row-reverse;
@@ -1045,8 +1030,8 @@ margin-bottom: 0;
 /*-----downalds--------------*/
 .listdownald{
     background-color: #FFFFFE;
-    padding: 60px 60px 60px 86px ;
-    margin-bottom: 90px;
+    padding: 3.75rem 3.75rem 3.75rem 5.375rem ;
+    margin-bottom: 5.625rem;
 }
 
 .listdownald li{
@@ -1063,11 +1048,11 @@ margin-bottom: 0;
     background-color:#CB2F2F;
     transform: translateY(-50%);
     top:50%;
-    left: -20px;
+    left: -1.25rem;
 }
 
 .listdownald li:not(:last-child){
-    margin-bottom: 35px;
+    margin-bottom: 2.1875rem;
 }
 
 .listdownald .red{
@@ -1128,7 +1113,7 @@ margin-bottom: 0;
 
 .wrap__contacts{
     background-color: white;
-    padding:60px 0rem 60px 60px;
+    padding:3.75rem 0rem 3.75rem 3.75rem;
 }
 
 .wrap__contacts ul{
@@ -1152,7 +1137,7 @@ margin-bottom: 0;
 
 .wrap__contacts h4{
     position: relative;
-    margin-bottom: 60px;
+    margin-bottom: 3.75rem;
 }
 
 .wrap__contacts h4::after{
@@ -1168,19 +1153,11 @@ margin-bottom: 0;
 .iconred{
     height: 1.5625rem;
     width: 1.5625rem;
-    margin-right: 30px;
+    margin-right: 1.875rem;
 }
 
 .face{
     margin-right: 2.5rem;
-}
-
-/*---------------Первый вкладышь---------*/
-
-.breadcrumb{
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    white-space: nowrap;
 }
 
 .breadcrumb::-webkit-scrollbar{

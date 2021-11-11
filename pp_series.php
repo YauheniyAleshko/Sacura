@@ -9,7 +9,7 @@
     <link rel ="stylesheet" href = "./css/media.css">
     <link rel="stylesheet" href="./swiper/css/swiper.css">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-    <title>Ppseries</title>
+    <title>PPpseries</title>
 </head>
 <body>
 
@@ -19,11 +19,11 @@
     <div class = "container">
       <nav style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
           <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href = "#">Медиаплееры Sakura AdBox</a></li>
+            <li class="breadcrumb-item"><a href = "products.php">Медиаплееры Sakura AdBox</a></li>
             <li class="breadcrumb-item active" aria-current = "page"><a>Мониторы Sakura PP</a></li>
-            <li class="breadcrumb-item"><a href ="#">Мониторы Sakura VPD</a></li>
-            <li class="breadcrumb-item"><a href="#">Мониторы Sakura HB</a></li>
-            <li class="breadcrumb-item"><a href="#">Мониторы Sakura MW</a></li>
+            <li class="breadcrumb-item"><a href ="vpd.php">Мониторы Sakura VPD</a></li>
+            <li class="breadcrumb-item"><a href="hb.php">Мониторы Sakura HB</a></li>
+            <li class="breadcrumb-item"><a href="mw.php">Мониторы Sakura MW</a></li>
           </ol>
       </nav>
     </div>  

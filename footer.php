@@ -10,10 +10,10 @@
           <h3 class="footer-title">Меню</h3>
             <div class="menu-group">
               <ul class="list-unstyled">
-                <li><a href="">Главная</a></li>
-                <li><a href="">Каталог</a></li>
-                <li><a href="">О нас</a></li>
-                <li><a href="">Файлы</a></li>
+                <li><a href="index.php">Главная</a></li>
+                <li><a href="products.php">Каталог</a></li>
+                <li><a href="about-us.php">О нас</a></li>
+                <li><a href="downalds.php">Файлы</a></li>
               </ul>
             </div>
         </div>    

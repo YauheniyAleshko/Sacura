@@ -19,11 +19,11 @@
     <div class = "container">
       <nav style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
           <ol class="breadcrumb">
-            <li class="breadcrumb-item active" aria-current="page">Медиаплееры Sakura AdBox</a></li>
-            <li class="breadcrumb-item"><a href="#">Мониторы Sakura PP</a></li>
-            <li class="breadcrumb-item"><a href ="#">Мониторы Sakura VPD</a></li>
-            <li class="breadcrumb-item"><a href="#">Мониторы Sakura HB</a></li>
-            <li class="breadcrumb-item"><a href="#">Мониторы Sakura MW</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Медиаплееры Sakura AdBox</li>
+            <li class="breadcrumb-item"><a href="pp_series.php">Мониторы Sakura PP</a></li>
+            <li class="breadcrumb-item"><a href ="vpd.php">Мониторы Sakura VPD</a></li>
+            <li class="breadcrumb-item"><a href="hb.php">Мониторы Sakura HB</a></li>
+            <li class="breadcrumb-item"><a href="mw.php">Мониторы Sakura MW</a></li>
           </ol>
       </nav>
     </div>  
