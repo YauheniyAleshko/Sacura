@@ -30,31 +30,27 @@
   </section>  
 
   <section class="offer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <h3 class = "slim">Возможно вам будет интерестно</h3>
-          </div>
-
-          <div class="col-md-6">
-            <div class="offer__paragraf">
-              Мы подобрали для вас самые популярные инструменты для создания выдающегося визуального стиля
-            </div>
-          </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h3 class = "slim">Возможно вам будет интерестно</h3>
         </div>
-    </section>
 
-    <?php include './popular-block.php';?>
+        <div class="col-md-6">
+          <div class="offer__paragraf">
+            Мы подобрали для вас самые популярные инструменты для создания выдающегося визуального стиля
+          </div>  
+        </div>
+      </div>
+    </div>
+  </section>
 
-
-
-
-
+  <?php include './popular-block.php';?>
 
   <?php include './bigfooter.php';?> 
 
-    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>  
-    <script src ="./swiper/js/swiper.js"></script>
-    <script src="./swiper/js/slider.js"></script>
+  <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>  
+  <script src ="./swiper/js/swiper.js"></script>
+  <script src="./swiper/js/slider.js"></script>
 </body>
 </html>

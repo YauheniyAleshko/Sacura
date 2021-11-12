@@ -18,74 +18,74 @@
   <section class = "header__bottom">
     <div class = "container">
       <nav style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href = "products.php">Медиаплееры Sakura AdBox</a></li>
-            <li class="breadcrumb-item active" aria-current = "page"><a>Мониторы Sakura PP</a></li>
-            <li class="breadcrumb-item"><a href ="vpd.php">Мониторы Sakura VPD</a></li>
-            <li class="breadcrumb-item"><a href="hb.php">Мониторы Sakura HB</a></li>
-            <li class="breadcrumb-item"><a href="mw.php">Мониторы Sakura MW</a></li>
-          </ol>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href = "products.php">Медиаплееры Sakura AdBox</a></li>
+          <li class="breadcrumb-item active" aria-current = "page"><a>Мониторы Sakura PP</a></li>
+          <li class="breadcrumb-item"><a href ="vpd.php">Мониторы Sakura VPD</a></li>
+          <li class="breadcrumb-item"><a href="hb.php">Мониторы Sakura HB</a></li>
+          <li class="breadcrumb-item"><a href="mw.php">Мониторы Sakura MW</a></li>
+        </ol>
       </nav>
     </div>  
   </section>  
   
 <section class = "product__expositionPP">
-<div class = "container">
+  <div class = "container">
     <div class = "row production">
         <div class = "col-6 substrate">
-        <div class = "swiper-container">
-            <div
-            <style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff "class="swiper mySwiper2">
-          
-            <div class="head swiper-wrapper">
-              <div class="swiper-slide">
-                <img src="../images/img (9).png" />
-              </div>
-              <div class="swiper-slide">
-                <img src="../images/img (9).png" />
-              </div>
-              <div class="swiper-slide">
-                <img src="../images/img (9).png" />
-              </div>
-              <div class="swiper-slide">
-                <img src="../images/img (9).png" />
-              </div>
-              <div class="swiper-slide">
-                <img src="../images/img (9).png" />
-              </div>
-              <div class="swiper-slide">
-                <img src="../images/img (9).png" />
-              </div>
-              <div class="swiper-slide">
-                <img src="../images/img (9).png" />
-              </div>
-            </div>
-          </div>
-          <div thumbsSlider="" class="swiper mySwiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <img src="../images/img (10).png"/>
-              </div>
-              <div class="swiper-slide">
-                <img src="../images/img (10).png" />
-              </div>
-              <div class="swiper-slide">
-                <img src="../images/img (10).png" />
-              </div>
-              <div class="swiper-slide">
-                <img src="../images/img (10).png" />
-              </div>
-              <div class="swiper-slide">
-                <img src="../images/img (10).png" />
-              </div>
-              <div class="swiper-slide">
-                <img src="../images/img (10).png" />
-              </div>
-              <div class="swiper-slide">
-                <img src="../images/img (10).png" />
+          <div class = "swiper-container">
+              <div
+              <style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff "class="swiper mySwiper2">
+            
+              <div class="head swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="../images/img (9).png" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="../images/img (9).png" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="../images/img (9).png" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="../images/img (9).png" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="../images/img (9).png" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="../images/img (9).png" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="../images/img (9).png" />
+                </div>
               </div>
             </div>
-          </div>
+            <div thumbsSlider="" class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="../images/img (10).png"/>
+                </div>
+                <div class="swiper-slide">
+                  <img src="../images/img (10).png" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="../images/img (10).png" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="../images/img (10).png" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="../images/img (10).png" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="../images/img (10).png" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="../images/img (10).png" />
+                </div>
+              </div>
+            </div>
           
           </div>
         </div>
@@ -126,10 +126,13 @@
             позволяет использовать
             ее в горизонтальном и
             вертикальном положениях.
-</p>
+          </p>
         </div>
 
     </div> 
+    
+  </div>
+</section>    
     
     <section class="offer">
       <div class="container">
@@ -148,8 +151,7 @@
 
     <?php include './popular-block.php';?>
 
-</div>
-</section>
+
 
 
 

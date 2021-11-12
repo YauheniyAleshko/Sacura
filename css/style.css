@@ -41,7 +41,6 @@ h3{
 }
 
 .collapse a:focus{
-    background-color:#F5F5F5;
     color:#CB2F2F;
     border-radius: 0.1875rem;
 }
@@ -517,7 +516,10 @@ h3{
 
 .form-foot{
     margin:3.75rem 0 3.75rem auto;
+    box-shadow: 0px 20px 20px -10px rgba(47, 47, 47, 0.05), 0px 50px 60px -30px rgba(47, 47, 47, 0.1);
+    border-radius: 4px;
 }
+
 
 .form-foot .form-group input, .form-foot .form-group textarea{
     padding-left: 1.25rem;
@@ -835,6 +837,7 @@ h3{
 
 .about__us .bot{
     padding-top: 18.125rem;
+    text-transform: uppercase;
 }
 
 .about__us_sacura{
@@ -1014,8 +1017,6 @@ h3{
 
 .swiper-slide:hover{
     cursor: pointer;
-    box-shadow: 0 0 15px rgba(0,0,0,0.5);
-    opacity: 0.7;
 }
 
 .mySwiper{
@@ -1024,14 +1025,27 @@ margin-top: auto;
 margin-bottom: 0;
 }
 
+.mySwiper .swiper-slide, .mySwiper3 .swiper-slide{
+    opacity: .5;
+}
 
+.mySwiper .swiper-slide:hover{
+    opacity: 1;
+    cursor: pointer;
+}
 
+.mySwiper3 .swiper-slide:hover{
+    opacity: 1;
+    cursor: pointer;
+}
 
 /*-----downalds--------------*/
 .listdownald{
     background-color: #FFFFFE;
     padding: 3.75rem 3.75rem 3.75rem 5.375rem ;
     margin-bottom: 5.625rem;
+    box-shadow: 0px 20px 20px -10px rgba(47, 47, 47, 0.05), 0px 50px 60px -30px rgba(47, 47, 47, 0.1);
+    border-radius: 4px;
 }
 
 .listdownald li{
@@ -1105,6 +1119,11 @@ margin-bottom: 0;
     margin-top: 0;
 }
 
+.cont .form-foot{
+    margin:3.75rem auto;
+    border-radius: 4px;
+}
+
   .title__form{
     font-weight: 500;
     font-size: 1.5rem;
@@ -1113,7 +1132,9 @@ margin-bottom: 0;
 
 .wrap__contacts{
     background-color: white;
-    padding:3.75rem 0rem 3.75rem 3.75rem;
+    padding:3.75rem 0rem 4.875rem 3.75rem;
+    box-shadow: 0px 50px 60px -30px rgba(47, 47, 47, 0.1);
+    border-radius: 4px;
 }
 
 .wrap__contacts ul{
@@ -1132,7 +1153,7 @@ margin-bottom: 0;
 }
 
 .wrap__contacts li:not(:last-child){
-    margin-bottom: 1.875rem;
+    margin-bottom: 2.5rem;
 }
 
 .wrap__contacts h4{

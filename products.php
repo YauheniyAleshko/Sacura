@@ -31,67 +31,64 @@
             
   <section class = "product__exposition">
     <div class = "container">
-      <div class = "row production">
-
-        <div class = "col-6 substrate">
-          
-          <div class = "swiper-container">
-            <div
-            <style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff "class="swiper mySwiper2">
-          
-            <div class="head swiper-wrapper">
-              <div class="swiper-slide">
-                <img src="../images/img (9).png" />
-              </div>
-              <div class="swiper-slide">
-                <img src="../images/img (9).png" />
-              </div>
-              <div class="swiper-slide">
-                <img src="../images/img (9).png" />
-              </div>
-              <div class="swiper-slide">
-                <img src="../images/img (9).png" />
-              </div>
-              <div class="swiper-slide">
-                <img src="../images/img (9).png" />
-              </div>
-              <div class="swiper-slide">
-                <img src="../images/img (9).png" />
-              </div>
-              <div class="swiper-slide">
-                <img src="../images/img (9).png" />
-              </div>
-            </div>
-          </div>
-          <div thumbsSlider="" class="swiper mySwiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <img src="../images/img (10).png"/>
-              </div>
-              <div class="swiper-slide">
-                <img src="../images/img (10).png" />
-              </div>
-              <div class="swiper-slide">
-                <img src="../images/img (10).png" />
-              </div>
-              <div class="swiper-slide">
-                <img src="../images/img (10).png" />
-              </div>
-              <div class="swiper-slide">
-                <img src="../images/img (10).png" />
-              </div>
-              <div class="swiper-slide">
-                <img src="../images/img (10).png" />
-              </div>
-              <div class="swiper-slide">
-                <img src="../images/img (10).png" />
-              </div>
-            </div>
-          </div>
-          
-          </div>
       
-        
+      <div class = "row production">
+        <div class = "col-6 substrate">
+          <div class = "swiper-container">
+            <div <style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff "class="swiper mySwiper2">
+            
+              <div class="head swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="../images/img (9).png" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="../images/img (9).png" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="../images/img (9).png" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="../images/img (9).png" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="../images/img (9).png" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="../images/img (9).png" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="../images/img (9).png" />
+                </div>
+              </div>
+            </div>
+          
+            <div thumbsSlider="" class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="../images/img (10).png"/>
+                </div>
+                <div class="swiper-slide">
+                  <img src="../images/img (10).png" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="../images/img (10).png" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="../images/img (10).png" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="../images/img (10).png" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="../images/img (10).png" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="../images/img (10).png" />
+                </div>
+              </div>
+            </div>
+          
+          </div>
         </div>
         
         <div class = "col-6">
@@ -103,10 +100,9 @@
           </div>
         </div>
       
-      
       </div>  
 
-      <div class = "table__wrap">
+    <div class = "table__wrap">
 
       <table class="table">
         <thead>
@@ -174,17 +170,14 @@
           </tr>
         </tbody>
       </table>
+    </div>
 
-</div>
 
-
-      <div class = "row production">
-
-        <div class = "col-6 substrate">
+    <div class = "row production">
+      <div class = "col-6 substrate">
         <div class = "swiper-container">
-            <div
-            <style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff "class="swiper mySwiper4">
-          
+          <div <style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff "class="swiper mySwiper4">
+        
             <div class=" head swiper-wrapper">
               <div class="swiper-slide">
                 <img src="../images/img (9).png" />
@@ -209,6 +202,7 @@
               </div>
             </div>
           </div>
+        
           <div thumbsSlider="" class="swiper3 mySwiper3">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
@@ -234,9 +228,8 @@
               </div>
             </div>
           </div>
-          
-          </div>
-        </div>
+      </div>
+    </div>
         
         <div class = "col-6">
           <div class = "model__description">
@@ -246,7 +239,7 @@
             <a class ="download" href = "#">Работает на базе ПО «It-screens»</a>  
           </div>
         </div>
-      </div>  
+    </div>  
 
       <div class = "table__wrap">
       <table class="table">
